@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 192.168.1.143
+    port: 6379
+    database: 0
+    jedis:
+      pool:
+        max-active: 20
+  application:
+    name: redis_single
